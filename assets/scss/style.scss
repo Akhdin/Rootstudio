@@ -1,0 +1,447 @@
+@font-face {
+    font-family: 'Arquitectura';
+    src: url(../fonts/Arquitectura.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 13.5%;
+    display: inline-block;
+    z-index: 1;
+    text-align: center;
+    position: fixed;
+    background-color: #f3d537;
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    left: -16.5%;
+    top: -10px;
+    transform: scale(0.25);
+}
+
+.rootstudio {
+    transform: scale(3);
+    float: left;
+    color: #03293b;
+    font-family: 'Arquitectura';
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-top: 3%;
+    font-family: 'Arquitectura';
+    transform: scale(1.5);
+    margin-left: 53.5%;
+}
+
+li a {
+    text-decoration: none;
+    color: #03293b;
+    margin-right: 45px;
+}
+
+li a:hover {
+    border-top: 4px;
+    border-bottom: 4px;
+    background-color: white;
+}
+
+#video {
+    position: relative;
+}
+
+video {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: transparent;
+    width: 1600px;
+    height: 900px;
+}
+
+.chester-zoo {
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 45%;
+    margin-top: -15%;
+    font-size: 170%;
+    font-family: 'Arquitectura';
+}
+
+.edge-white {
+    width: 100%;
+    height: 20px;
+    background: url(../img/edge-white.png);
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    bottom: 0;
+    float: left;
+    margin-top: -1%;
+}
+
+//ARTICLES
+.c-row {
+    display: flex;
+    width: 70%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.good-morning {
+    font-size: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    color: #215E7F;
+    width: 80%;
+    font-family: helvetica, arial;
+}
+
+.good-morning h1 {
+    font-size: 300%;
+    line-height: 10px;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Arquitectura';
+    font-size: 170%;
+}
+
+.article-1 {
+    float: left;
+    color: #215E7F;
+}
+
+.article-2 {
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 5%;
+}
+
+.article-3 {
+    width: 32%;
+    position: relative;
+    margin-left: 37%;
+    padding-bottom: 5%;
+}
+
+//FIN D'ARTICLES
+//IMAGES CURRY ETC...
+.pic1>img {
+    width: 25%;
+}
+
+.w3-row-padding {
+    margin-top: 1%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.giant {
+    display: block;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.w3-row-padding:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.div-show {
+    width: 100%;
+    height: 2px;
+}
+
+.show {
+    padding-top: 11px;
+    margin-top: 5%;
+    background-color: white;
+    width: 15%;
+    height: 55px;
+    border: 2px solid #c6e4f7;
+    position: relative;
+    margin-bottom: 10%;
+    display: block;
+    margin: 5% auto;
+    padding-left: 15px;
+}
+
+.show2 {
+    padding-top: 12px;
+    background-color: white;
+    width: 12%;
+    height: 50px;
+    border: 2px solid #F7B634;
+    position: absolute;
+    margin-bottom: 0;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding-left: 10px;
+}
+
+.show-me {
+    text-decoration: none;
+    color: #215E7F;
+}
+
+.show-me2 {
+    text-decoration: none;
+    color: #215E7F;
+}
+
+.show::before {
+    position: absolute;
+    top: 50%;
+    content: "";
+    right: 100%;
+    background-color: #c6e4f7;
+    height: 2px;
+    width: 250%;
+}
+
+.show::after {
+    position: absolute;
+    top: 50%;
+    content: "";
+    left: 100%;
+    background-color: #c6e4f7;
+    height: 2px;
+    width: 250%;
+}
+
+.burrito {
+    display: block;
+    margin: 10% auto -8%;
+}
+
+.square {
+    display: block;
+    margin: 10% auto;
+    margin-bottom: -2.7%;
+    transform: rotate(-45deg);
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-left-color: transparent;
+    border-top: solid;
+    border-top-color: #c6e4f7;
+    border-right: solid;
+    border-right-color: #c6e4f7;
+    border-bottom-color: transparent;
+}
+
+.group-team {
+    position: relative;
+}
+
+.team {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-right: solid 2px #c6e4f7;
+    border-left: solid 2px #c6e4f7;
+    border-top: solid 2px #c6e4f7;
+    border-bottom: solid 2px #c6e4f7;
+    margin-bottom: -4%;
+}
+
+.col {
+    width: 95%;
+    display: flex;
+    margin-top: 15%;
+    position: relative;
+    margin-bottom: -15%;
+}
+
+.col p {
+    color: #2E5E83;
+    text-align: center;
+}
+
+h3 {
+    color: #E94A4F;
+}
+
+.colonne1 {
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-bottom: solid 5px #F7B634;
+    text-align: center;
+}
+
+.colonne2 {
+    border-bottom: solid 5px #67D6B7;
+    text-align: center;
+}
+
+.colonne3 {
+    float: right;
+    margin-left: 2%;
+    border-bottom: solid 5px #41A5E3;
+    text-align: center;
+}
+
+.col-2 p {
+    color: #2E5E83;
+    text-align: center;
+}
+
+.col-2 {
+    width: 100%;
+    display: flex;
+    margin-top: 15%;
+    position: relative;
+}
+
+.colonne1-1 {
+    float: left;
+    margin-left: 8%;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.colonne2-2 {
+    text-align: center;
+    margin-right: 7%;
+}
+
+.colonne3-3 {
+    float: right;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.red-edge {
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/edge-candy.svg);
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    bottom: 0;
+    float: left;
+    margin-top: -1%;
+    z-index: 0;
+}
+
+.footer {
+    margin-top: 7%;
+    width: 100%;
+    height: auto;
+    background-color: #E94A4F;
+    color: white;
+    text-align: center;
+    padding: 0;
+    bottom: 0;
+}
+
+.call-us {
+    padding-top: 1%;
+    display: block;
+    margin: 0;
+}
+
+.footer img {
+    position: relative;
+    z-index: 1;
+    margin-top: -3%;
+}
+
+.footer h4 {
+    margin: 0;
+}
+
+.awesome {
+    margin-left: 42%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+}
+
+.facebook {
+    position: relative;
+    margin-right: 3%;
+}
+
+.fa-facebook:hover {
+    color: rgb(59, 89, 152);
+}
+
+.instagram {
+    margin-right: 3%;
+}
+
+.fa-instagram:hover {
+    color: rgb(255, 220, 128);
+}
+
+.twitter {
+    margin-right: 3%;
+}
+
+.fa-twitter:hover {
+    color: rgb(29, 161, 242);
+}
+
+.dribble {
+    position: relative;
+    margin-right: 3%;
+}
+
+.fa-dribbble:hover {
+    color: rgb(138, 186, 86);
+}
+
+.linkedin {
+    position: relative;
+}
+
+.fa-linkedin:hover {
+    color: rgb(0, 119, 181);
+}
